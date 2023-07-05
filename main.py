@@ -4,7 +4,7 @@ import requests
 from twilio.rest import Client
 
 
-# this is an example on how API should be written, its much cleaner than putting everything in the response call.
+
 API_KEY = "your api key from openweather map"
 OWM_endpoint = "https://api.openweathermap.org/data/2.5/weather?"
 

@@ -5,7 +5,7 @@ from twilio.rest import Client
 
 
 # this is an example on how API should be written, its much cleaner than putting everything in the response call.
-API_KEY = "60ec27ddc046a414b4a1c9cb4aa02939"
+API_KEY = "your api key from openweather map"
 OWM_endpoint = "https://api.openweathermap.org/data/2.5/weather?"
 
 ACCOUNT_SID =  os.environ['TWILIO_ACCOUNT_SID']
